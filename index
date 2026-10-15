@@ -1,0 +1,315 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>SANJAY JACKPOT KING</title>
+
+<!-- META PIXEL -->
+<script>
+!function(f,b,e,v,n,t,s){
+if(f.fbq)return;
+n=f.fbq=function(){
+n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)
+};
+if(!f._fbq)f._fbq=n;
+n.push=n;
+n.loaded=!0;
+n.version='2.0';
+n.queue=[];
+t=b.createElement(e);
+t.async=!0;
+t.src=v;
+s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)
+}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init','1834414497777781');
+fbq('track','PageView');
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1834414497777781&ev=PageView&noscript=1" alt="">
+</noscript>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+-webkit-tap-highlight-color:transparent;
+}
+
+html,body{
+width:100%;
+height:100%;
+overflow:hidden;
+}
+
+body{
+background:#000;
+color:#fff;
+font-family:Arial,Helvetica,sans-serif;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.mobile-frame{
+position:relative;
+width:min(100vw,56.25vh);
+height:min(100vh,177.78vw);
+aspect-ratio:9/16;
+max-width:430px;
+max-height:100vh;
+overflow:hidden;
+background:
+radial-gradient(circle at 50% 15%,rgba(0,140,255,.18),transparent 38%),
+linear-gradient(180deg,#050505,#000);
+border:2px solid #00aaff;
+border-radius:18px;
+box-shadow:0 0 8px #00aaff,0 0 25px rgba(0,170,255,.45),inset 0 0 25px rgba(0,170,255,.08);
+display:flex;
+flex-direction:column;
+align-items:center;
+padding:3.2% 4%;
+}
+
+.profile-img{
+width:23%;
+aspect-ratio:1/1;
+object-fit:cover;
+border-radius:50%;
+border:3px solid #00aaff;
+box-shadow:0 0 10px #00aaff,0 0 22px rgba(0,170,255,.55);
+flex-shrink:0;
+}
+
+.name{
+margin-top:1.8%;
+font-size:clamp(15px,4.3vw,24px);
+font-weight:900;
+text-align:center;
+color:#fff;
+text-shadow:0 0 7px #00aaff,0 0 15px rgba(0,170,255,.6);
+white-space:nowrap;
+}
+
+.slider{
+width:100%;
+margin-top:3%;
+border-radius:12px;
+overflow:hidden;
+border:1px solid rgba(0,170,255,.8);
+box-shadow:0 0 10px rgba(0,170,255,.3);
+aspect-ratio:16/7;
+flex-shrink:0;
+}
+
+.slides{
+width:300%;
+height:100%;
+display:flex;
+animation:slide 12s infinite;
+}
+
+.slide{
+width:33.3333%;
+height:100%;
+flex-shrink:0;
+}
+
+.slide img{
+width:100%;
+height:100%;
+object-fit:cover;
+display:block;
+}
+
+@keyframes slide{
+0%,28%{transform:translateX(0)}
+33%,61%{transform:translateX(-33.3333%)}
+66%,94%{transform:translateX(-66.6666%)}
+100%{transform:translateX(0)}
+}
+
+.main-title{
+margin-top:3%;
+font-size:clamp(16px,4.3vw,23px);
+font-weight:900;
+text-align:center;
+color:#00b7ff;
+text-shadow:0 0 8px #00b7ff,0 0 16px rgba(0,183,255,.5);
+white-space:nowrap;
+}
+
+.subtitle{
+margin-top:1.2%;
+font-size:clamp(9px,2.6vw,13px);
+color:#ddd;
+text-align:center;
+line-height:1.3;
+white-space:nowrap;
+}
+
+.telegram-btn{
+width:100%;
+margin-top:4%;
+padding:3.4% 3%;
+border-radius:10px;
+background:linear-gradient(135deg,#0088cc,#00aaff);
+color:#fff;
+text-decoration:none;
+text-align:center;
+font-size:clamp(13px,3.7vw,18px);
+font-weight:800;
+box-shadow:0 0 10px rgba(0,170,255,.5),0 5px 15px rgba(0,0,0,.5);
+transition:.2s;
+flex-shrink:0;
+}
+
+.telegram-btn:active{
+transform:scale(.97);
+}
+
+.info-box{
+width:100%;
+margin-top:3%;
+padding:3.2%;
+border-radius:10px;
+background:rgba(255,255,255,.045);
+border:1px solid rgba(255,255,255,.12);
+color:#ccc;
+font-size:clamp(8px,2.25vw,11px);
+line-height:1.45;
+text-align:center;
+flex-shrink:0;
+}
+
+.info-box strong{
+color:#00b7ff;
+}
+
+.footer{
+width:100%;
+margin-top:auto;
+padding-top:2%;
+text-align:center;
+color:#777;
+font-size:clamp(7px,2vw,10px);
+line-height:1.2;
+flex-shrink:0;
+}
+
+@media(max-height:700px){
+.mobile-frame{padding:2.5% 3.5%}
+.profile-img{width:20%}
+.name{margin-top:1%}
+.slider{margin-top:2%}
+.main-title{margin-top:2%}
+.telegram-btn{margin-top:2.5%;padding:2.7%}
+.info-box{margin-top:2%;padding:2.5%}
+}
+
+@media(max-height:600px){
+.mobile-frame{border-radius:12px;padding:2% 3%}
+.profile-img{width:17%;border-width:2px}
+.name{font-size:14px}
+.main-title{font-size:15px}
+.subtitle{font-size:8px}
+.telegram-btn{font-size:12px;padding:2.2%}
+.info-box{font-size:7px;line-height:1.3}
+.footer{font-size:7px}
+}
+</style>
+</head>
+
+<body>
+<div class="mobile-frame">
+
+<!-- PROFILE IMAGE -->
+<img
+class="profile-img"
+src="https://github.com/h38331627-cloud/sanjay-king/blob/main/55555555.jpg?raw=true"
+alt="SANJAY JACKPOT KING"
+>
+
+<div class="name">SANJAY JACKPOT KING</div>
+
+<!-- IMAGE SLIDER -->
+<div class="slider">
+<div class="slides">
+
+<div class="slide">
+<img
+src="https://github.com/h38331627-cloud/sanjay-king/blob/main/55555555.jpg?raw=true"
+alt="Sanjay Jackpot King"
+>
+</div>
+
+<div class="slide">
+<img
+src="https://github.com/h38331627-cloud/Riya-cricket-tips/blob/main/CPL-Caribbean-Premier-League.webp?raw=true"
+alt="Cricket Updates"
+>
+</div>
+
+<div class="slide">
+<img
+src="https://github.com/h38331627-cloud/Riya-cricket-tips/blob/main/images.jpg?raw=true"
+alt="Match Analysis"
+>
+</div>
+
+</div>
+</div>
+
+<!-- MAIN TITLE -->
+<div class="main-title">🏏 JACKPOT KING</div>
+
+<div class="subtitle">
+Match Analysis • Cricket Updates • Sports Insights
+</div>
+
+<!-- TELEGRAM BUTTON -->
+<a
+class="telegram-btn"
+href="https://t.me/+g1bUo9X6n0FmMmQ9"
+target="_blank"
+rel="noopener noreferrer"
+onclick="if(typeof fbq==='function')fbq('trackCustom','JoinTelegram');"
+>
+🚀 JOIN TELEGRAM CHANNEL
+</a>
+
+<!-- DISCLAIMER -->
+<div class="info-box">
+<strong>⚠️ महत्वपूर्ण जानकारी</strong>
+<br><br>
+
+यह पेज केवल सामान्य जानकारी, क्रिकेट अपडेट
+और मैच एनालिसिस के उद्देश्य से बनाया गया है।
+
+<br><br>
+
+किसी भी प्रकार के लाभ, जीत या निश्चित परिणाम
+की गारंटी नहीं दी जाती।
+
+<br><br>
+
+कृपया अपनी समझ से निर्णय लें और
+जोखिमों को ध्यान में रखें।
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+© 2026 SANJAY JACKPOT KING • Updates & Analysis
+</div>
+
+</div>
+</body>
+</html>
+```
